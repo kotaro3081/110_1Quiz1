@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ad.aspx" />
-    <Content Include="ch5-8.aspx" />
     <Content Include="ch5-8.xml" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -80,13 +79,6 @@
     </Compile>
     <Compile Include="Ad.aspx.designer.cs">
       <DependentUpon>Ad.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ch5-8.aspx.cs">
-      <DependentUpon>ch5-8.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ch5-8.aspx.designer.cs">
-      <DependentUpon>ch5-8.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
